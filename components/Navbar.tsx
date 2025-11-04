@@ -19,9 +19,9 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container-custom">
-        {/* Logo Row - centered */}
+        {/* Logo and Menu Row */}
         <div className="relative flex justify-center items-center py-4">
-          {/* Logo - centered */}
+          {/* Logo - always centered */}
           <Link href="/" className="flex justify-center">
             <Image 
               src="/logo.png" 
@@ -29,14 +29,14 @@ export default function Navbar() {
               width={450}
               height={120}
               priority
-              className="h-auto w-auto max-h-20 md:max-h-28"
+              className="h-auto w-auto max-h-16 md:max-h-28"
             />
           </Link>
 
-          {/* Mobile menu button - positioned absolute on mobile only */}
+          {/* Mobile menu button - positioned absolute on right */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden absolute right-0 p-2 rounded-md text-gray-700 hover:bg-gray-100"
+            className="md:hidden absolute right-0 p-2 rounded-md text-gray-600 hover:text-oak-700 hover:bg-gray-100"
             aria-label="Toggle menu"
           >
             <svg
