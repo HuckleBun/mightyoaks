@@ -32,26 +32,26 @@ export default function OurProgram() {
             {/* K-2nd Grades */}
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-oak-800 mb-4">Kindergarten - 2nd Grade</h3>
-              <div className="bg-oak-50 rounded-lg p-6 mb-4">
-                <table className="w-full text-gray-700">
+              <div className="bg-oak-50 rounded-lg p-4 md:p-6 mb-4 overflow-x-auto">
+                <table className="w-full text-gray-700 text-sm md:text-base">
                   <thead>
                     <tr className="border-b border-oak-200">
-                      <th className="text-left py-2 font-semibold">Grade Level</th>
-                      <th className="text-left py-2 font-semibold">Curriculum Program(s) Utilized</th>
+                      <th className="text-left py-3 pr-4 md:pr-6 font-semibold">Grade Level</th>
+                      <th className="text-left py-3 pl-4 md:pl-6 font-semibold">Curriculum Program(s) Utilized</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b border-oak-100">
-                      <td className="py-3">Kindergarten</td>
-                      <td className="py-3">Theme Based</td>
+                      <td className="py-4 pr-4 md:pr-6">Kindergarten</td>
+                      <td className="py-4 pl-4 md:pl-6">Theme Based</td>
                     </tr>
                     <tr className="border-b border-oak-100">
-                      <td className="py-3">First Grade</td>
-                      <td className="py-3">Five in a Row</td>
+                      <td className="py-4 pr-4 md:pr-6">First Grade</td>
+                      <td className="py-4 pl-4 md:pl-6">Five in a Row</td>
                     </tr>
                     <tr>
-                      <td className="py-3">Second Grade</td>
-                      <td className="py-3">Expedition Earth, Apologia Swimming Creatures</td>
+                      <td className="py-4 pr-4 md:pr-6">Second Grade</td>
+                      <td className="py-4 pl-4 md:pl-6">Expedition Earth, Apologia Swimming Creatures</td>
                     </tr>
                   </tbody>
                 </table>
