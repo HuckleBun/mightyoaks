@@ -20,9 +20,12 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container-custom">
         {/* Logo and Menu Row */}
-        <div className="relative flex justify-center items-center py-4">
-          {/* Logo - always centered */}
-          <Link href="/" className="flex justify-center">
+        <div className="flex justify-between items-center py-4 gap-4">
+          {/* Spacer for mobile to balance layout */}
+          <div className="md:hidden w-10 flex-shrink-0"></div>
+          
+          {/* Logo - centered */}
+          <Link href="/" className="flex justify-center flex-1">
             <Image 
               src="/logo.png" 
               alt="Mighty Oaks Enrichment Center" 
@@ -33,10 +36,10 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Mobile menu button - positioned absolute on right */}
+          {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden absolute right-0 p-2 rounded-md text-gray-600 hover:text-oak-700 hover:bg-gray-100"
+            className="md:hidden flex-shrink-0 p-2 rounded-md text-gray-600 hover:text-oak-700 hover:bg-gray-100"
             aria-label="Toggle menu"
           >
             <svg
