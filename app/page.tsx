@@ -19,12 +19,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-oak-50 to-white py-16 mb-12">
         <div className="container-custom text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-oak-800 mb-4">
-            Mighty Oaks Enrichment Center
+          <h1 className="text-4xl md:text-5xl font-bold text-oak-800">
+            Home
           </h1>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Providing fun, hands on, supplemental classes to assist families in the home education of their children
-          </p>
         </div>
       </section>
 
